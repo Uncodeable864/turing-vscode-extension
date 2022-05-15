@@ -2,7 +2,7 @@
     "name": "turing-vscode-language-support",
     "displayName": "turing",
     "description": "Adds syntax highlighting for the turing programing language",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "icon": "logo.png",
     "repository": {
         "url": "https://github.com/Uncodeable864/turing-vscode-extension.git",
@@ -16,22 +16,26 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "turing",
-            "aliases": [
-                "turing",
-                "turing"
-            ],
-            "extensions": [
-                ".trng",
-                ".trg"
-            ],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "turing",
-            "scopeName": "source.turing",
-            "path": "./syntaxes/turing.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "turing",
+                "aliases": [
+                    "turing",
+                    "turing"
+                ],
+                "extensions": [
+                    ".trng",
+                    ".trg"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "turing",
+                "scopeName": "source.turing",
+                "path": "./syntaxes/turing.tmLanguage.json"
+            }
+        ]
     }
 }
