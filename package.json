@@ -5,7 +5,8 @@
     "version": "0.0.1",
     "icon": "logo.png",
     "repository": {
-        "url": "https://github.com/Uncodeable864/turing-vscode-extension"
+        "url": "https://github.com/Uncodeable864/turing-vscode-extension.git",
+        "type": "git"
     },
     "engines": {
         "vscode": "^1.67.0"
