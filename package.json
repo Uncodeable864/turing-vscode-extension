@@ -4,6 +4,9 @@
     "description": "Adds syntax highlighting for the turing programing language",
     "version": "0.0.1",
     "icon": "logo.png",
+    "repository": {
+        "url": "https://github.com/Uncodeable864/turing-vscode-extension"
+    },
     "engines": {
         "vscode": "^1.67.0"
     },
