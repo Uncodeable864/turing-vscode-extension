@@ -8,6 +8,7 @@
         "url": "https://github.com/Uncodeable864/turing-vscode-extension.git",
         "type": "git"
     },
+    "publisher": "Uncodeable864",
     "engines": {
         "vscode": "^1.67.0"
     },

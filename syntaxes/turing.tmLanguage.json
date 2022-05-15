@@ -19,7 +19,7 @@
                 },
                 {
                     "name": "keyword",
-                    "match": "(WRITE|PRINT|JUMP|LOC)"
+                    "match": "(WRITE|PRINT|JUMP|LOC|GOTO)"
                 },
                 {
                     "name": "keyword.operator.new",
