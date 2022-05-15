@@ -1,0 +1,25 @@
+{
+    "name": "turing-vscode-language-support",
+    "displayName": "turing-vscode-language-support",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "turing",
+            "aliases": ["turing", "turing"],
+            "extensions": [".trng"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "turing",
+            "scopeName": "source.turing",
+            "path": "./syntaxes/turing.tmLanguage.json"
+        }]
+    }
+}
