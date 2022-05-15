@@ -1,8 +1,9 @@
 {
     "name": "turing-vscode-language-support",
-    "displayName": "turing-vscode-language-support",
-    "description": "",
+    "displayName": "turing",
+    "description": "Adds syntax highlighting for the turing programing language",
     "version": "0.0.1",
+    "icon": "logo.png",
     "engines": {
         "vscode": "^1.67.0"
     },
@@ -12,8 +13,14 @@
     "contributes": {
         "languages": [{
             "id": "turing",
-            "aliases": ["turing", "turing"],
-            "extensions": [".trng"],
+            "aliases": [
+                "turing",
+                "turing"
+            ],
+            "extensions": [
+                ".trng",
+                ".trg"
+            ],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
